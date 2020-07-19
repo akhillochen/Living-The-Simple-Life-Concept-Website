@@ -6,8 +6,33 @@
   padding: 0;
 }
 
+/***** WEBSITE CONTAINER *****/
+
 .container {
   margin: 0 15em;
+}
+
+/***** TYPOGRAPHY *****/
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+.brand p {
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+nav a {
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 /***** HEADER *****/
@@ -25,18 +50,11 @@ header {
 .brand a {
   color: #143774;
   text-decoration: none;
-  font-size: 2rem;
-  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
 }
 
 .brand p {
   cursor: default;
   color: #1792D2;
-  letter-spacing: 2px;
-  font-size: 0.75rem;
-  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
 }
 
 nav ul {
@@ -52,11 +70,6 @@ nav li {
 nav a {
   color: #717171;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 0.75rem;
-  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 img {
