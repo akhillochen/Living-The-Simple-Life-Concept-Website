@@ -144,6 +144,9 @@ CONTENT
 }
 
 .article-image {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
   order: 1;
 }
 
@@ -244,7 +247,7 @@ MEDIA QUERIES
     width: 35%;
   }
   .article-image {
-    min-height: 250px;
+    min-height: 240px;
     object-fit: cover;
   }
   .sidebar-widget {
