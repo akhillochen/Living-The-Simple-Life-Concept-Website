@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 15em;
+}
+
+header {
+  background-color: #F8F8F8;
+  padding: 4em 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 2em;
+}
+
+nav a {
+  color: #717171;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 img {
   width: 20em;
 }
