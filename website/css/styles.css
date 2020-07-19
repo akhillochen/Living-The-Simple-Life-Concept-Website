@@ -113,3 +113,9 @@ nav a {
 img {
   width: 20em;
 }
+
+/* @media (min-width: 1440px) {
+  .container {
+    margin: 0 auto;
+  }
+} */
