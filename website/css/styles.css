@@ -7,11 +7,17 @@
 }
 
 /********************
-WEBSITE CONTAINER
+MAIN
 ********************/
 
 .container {
   margin: 0 15em;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
 }
 
 /********************
