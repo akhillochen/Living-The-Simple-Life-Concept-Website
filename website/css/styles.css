@@ -197,7 +197,6 @@ MEDIA QUERIES
     width: 35%;
   }
   .article-image {
-    width: 100%;
     min-height: 250px;
     object-fit: cover;
   }
