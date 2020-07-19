@@ -178,6 +178,8 @@ CONTENT
 
 .sidebar-widget {
   margin-bottom: 3em;
+  padding: 20px 10px;
+  border: 10px solid #EBEBEB;
 }
 
 .widget-recent-post {
