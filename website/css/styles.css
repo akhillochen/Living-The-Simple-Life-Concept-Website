@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display:wght@600&display=swap');
 
 * {
@@ -18,9 +18,10 @@ WEBSITE CONTAINER
 TYPOGRAPHY
 ********************/
 
-h1, h3 {
+h1, h2, h3 {
   font-size: 2rem;
   font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
 }
 
 .brand p, nav a {
@@ -35,8 +36,14 @@ nav a {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 /********************
