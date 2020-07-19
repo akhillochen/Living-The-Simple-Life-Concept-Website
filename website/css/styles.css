@@ -6,13 +6,17 @@
   padding: 0;
 }
 
-/***** WEBSITE CONTAINER *****/
+/********************
+WEBSITE CONTAINER
+********************/
 
 .container {
   margin: 0 15em;
 }
 
-/***** TYPOGRAPHY *****/
+/********************
+TYPOGRAPHY
+********************/
 
 h1 {
   font-size: 2rem;
@@ -35,7 +39,9 @@ nav a {
   font-weight: 700;
 }
 
-/***** HEADER *****/
+/********************
+HEADER
+********************/
 
 header {
   padding: 4em 0;
