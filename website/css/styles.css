@@ -11,8 +11,8 @@
 }
 
 header {
-  background-color: #F8F8F8;
   padding: 4em 0;
+  background-color: #F8F8F8;
 }
 
 .container-header {
@@ -20,7 +20,25 @@ header {
   justify-content: space-between;
 }
 
+.brand a {
+  color: #143774;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+.brand p {
+  cursor: default;
+  color: #1792D2;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
 nav ul {
+  margin: 1.3em 0;
   display: flex;
   list-style: none;
 }
@@ -32,7 +50,8 @@ nav li {
 nav a {
   color: #717171;
   text-decoration: none;
-  font-size: 0.8rem;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
   font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
