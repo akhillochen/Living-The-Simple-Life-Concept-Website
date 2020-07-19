@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display:wght@600&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +27,7 @@ h1, h2, h3 {
   font-size: 2rem;
   font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
   font-weight: 600;
+  color: #143774;
 }
 
 .brand p, nav a, .article-read-more, .artcile-info {
@@ -36,6 +36,7 @@ h1, h2, h3 {
   font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
+  color: #1792D2;
 }
 
 nav a {
@@ -58,9 +59,15 @@ h3 {
   font-weight: 700;
 }
 
+.article-read-more:hover, .article-read-more:focus {
+  color: #143774;
+  text-decoration: underline;
+}
+
 .artcile-info {
   font-size: 0.875rem;
   text-transform: none;
+  color: #707070;
 }
 
 /********************
@@ -84,7 +91,6 @@ header {
 
 .brand p {
   cursor: default;
-  color: #1792D2;
 }
 
 nav ul {
