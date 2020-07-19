@@ -10,7 +10,7 @@ MAIN
 ********************/
 
 .container {
-  margin: 0 5%;
+  margin: 0 5% 4em 5%;
   max-width: 1000px;
 }
 
@@ -200,13 +200,20 @@ CONTENT
   order: 2;
 }
 
+footer {
+  padding: 4em 0;
+  text-align: center;
+  background-color: #143774;
+  color: #ffffff54;
+}
+
 /********************
 MEDIA QUERIES
 ********************/
 
 @media (min-width: 850px) {
   .container {
-    margin: 0 auto;
+    margin: 0 auto 4em auto;
     padding: 0 4em;
   }
   .flex {
