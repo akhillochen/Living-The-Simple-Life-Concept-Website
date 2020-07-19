@@ -172,8 +172,26 @@ CONTENT
   margin-bottom: 1em;
 }
 
+.widget-title {
+  margin-bottom: 1em;
+}
+
 .sidebar-widget {
   margin-bottom: 3em;
+}
+
+.widget-recent-post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.widget-image {
+  order: 1;
+}
+
+.widget-recent-post-title {
+  order: 2;
 }
 
 /********************
@@ -216,8 +234,5 @@ MEDIA QUERIES
   }
   .sidebar-widget {
     margin-bottom: 3em;
-  }
-  .widget-recent-post {
-    margin-bottom: 1em;
   }
 }
