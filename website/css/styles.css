@@ -130,6 +130,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover, nav a:focus {
+  color: #143774;
+}
+
+
 /********************
 CONTENT
 ********************/
