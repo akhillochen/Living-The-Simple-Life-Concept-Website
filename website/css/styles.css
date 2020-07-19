@@ -21,6 +21,11 @@ body {
   color: #707070;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /********************
 TYPOGRAPHY
 ********************/
@@ -108,10 +113,6 @@ nav li {
 nav a {
   color: #757575;
   text-decoration: none;
-}
-
-img {
-  width: 20em;
 }
 
 /********************
