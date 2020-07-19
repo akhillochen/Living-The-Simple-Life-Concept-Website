@@ -18,7 +18,7 @@ WEBSITE CONTAINER
 TYPOGRAPHY
 ********************/
 
-h1 {
+h1, h3 {
   font-size: 2rem;
   font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
 }
@@ -33,6 +33,10 @@ h1 {
 
 nav a {
   font-weight: 700;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 /********************
