@@ -11,6 +11,7 @@ MAIN
 
 .container {
   margin: 0 15em;
+  max-width: 1000px;
 }
 
 body {
