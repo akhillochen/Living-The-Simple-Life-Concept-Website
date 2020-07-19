@@ -95,7 +95,7 @@ HEADER
 
 header {
   margin-bottom: 4em;
-  padding: 4em 0;
+  padding-top: 4em;
   background-color: #edf1f8;
 }
 
@@ -233,6 +233,9 @@ MEDIA QUERIES
   .container {
     margin: 0 auto 4em auto;
     padding: 0 4em;
+  }
+  header {
+    padding: 4em 0 1em 0;
   }
   .flex {
     flex-direction: row;
