@@ -10,7 +10,7 @@ MAIN
 ********************/
 
 .container {
-  margin: 0 15em;
+  margin: 0 10%;
   max-width: 1000px;
 }
 
@@ -24,6 +24,10 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+.brand {
+  text-align: center;
 }
 
 /********************
@@ -88,6 +92,7 @@ header {
 
 .flex {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -103,11 +108,12 @@ header {
 nav ul {
   margin: 1.3em 0;
   display: flex;
+  flex-direction: column;
   list-style: none;
 }
 
 nav li {
-  margin-left: 2em;
+  margin: 0 auto;
 }
 
 nav a {
@@ -119,17 +125,19 @@ nav a {
 CONTENT
 ********************/
 
-main {
-  width: 75%;
-}
 
-aside {
- width: 20%;
-}
+/********************
+MEDIA QUERIES
+********************/
 
-/* @media (min-width: 1440px) {
-  .container {
-    margin: 0 auto;
+@media (min-width: 800px) {
+  .flex {
+    flex-direction: row;
   }
-} */
-
+  nav li {
+    margin-left: 2em;
+  }
+  nav ul {
+    flex-direction: row;
+  }
+}
