@@ -30,7 +30,7 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
-.brand p, nav a {
+.brand p, nav a, .article-read-more, .artcile-info {
   letter-spacing: 2px;
   font-size: 0.75rem;
   font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,6 +50,17 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.article-read-more {
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.artcile-info {
+  font-size: 0.875rem;
+  text-transform: none;
 }
 
 /********************
