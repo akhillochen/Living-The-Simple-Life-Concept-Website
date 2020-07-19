@@ -42,7 +42,7 @@ h1, h2, h3 {
   color: #143774;
 }
 
-.brand p, nav a, .article-read-more, .artcile-info {
+.brand p, nav a, .article-read-more, .artcile-info, .widget-title {
   letter-spacing: 2px;
   font-size: 0.75rem;
   font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -174,6 +174,9 @@ CONTENT
 
 .widget-title {
   margin-bottom: 1em;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #143774;
 }
 
 .sidebar-widget {
@@ -200,7 +203,7 @@ CONTENT
 MEDIA QUERIES
 ********************/
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   .container {
     margin: 0 auto;
     padding: 0 4em;
@@ -219,6 +222,7 @@ MEDIA QUERIES
   }
   aside {
     width: 25%;
+    min-width: 200px;
   }
   .article-recent {
     flex-direction: row;
