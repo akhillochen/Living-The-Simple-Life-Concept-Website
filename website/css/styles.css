@@ -22,7 +22,7 @@ body {
 }
 
 img {
-  margin: 1.5em 0;
+  margin-bottom: 1.5em;
   display: block;
   max-width: 100%;
 }
@@ -56,11 +56,13 @@ nav a {
 }
 
 h2 {
+  margin-bottom: 1em;
   font-size: 1.8rem;
   font-weight: 400;
 }
 
 h3 {
+  margin-bottom: 1em;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -179,5 +181,8 @@ MEDIA QUERIES
   }
   aside {
     width: 30%;
+  }
+  .article-recent {
+    flex-direction: row;
   }
 }
