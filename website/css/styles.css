@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +15,9 @@ MAIN
 
 body {
   font-size: 1rem;
-  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
+  color: #707070;
 }
 
 /********************
@@ -33,7 +34,7 @@ h1, h2, h3 {
 .brand p, nav a, .article-read-more, .artcile-info {
   letter-spacing: 2px;
   font-size: 0.75rem;
-  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   color: #1792D2;
