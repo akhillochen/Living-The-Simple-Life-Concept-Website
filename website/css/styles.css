@@ -119,8 +119,12 @@ nav a {
 CONTENT
 ********************/
 
-.container-flex {
-  display: flex;
+main {
+  width: 75%;
+}
+
+aside {
+ width: 20%;
 }
 
 /* @media (min-width: 1440px) {
